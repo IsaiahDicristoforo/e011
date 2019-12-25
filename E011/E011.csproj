@@ -51,7 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\data.txt" />
+    <Content Include="Data\dataShort.txt" />
+    <Content Include="Data\dataLong.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

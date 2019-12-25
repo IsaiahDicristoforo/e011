@@ -5,3 +5,5 @@ In the given file, data.txt, what is the largest prime number consisting of all 
 
 Each line of the file is seperate: do not continue a possible prime from one line to the next.
 
+For example: 23431720983 contains the prime number 317 that consists of all prime digits (1 is considered a prime digit here)
+

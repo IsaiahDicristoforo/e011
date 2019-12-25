@@ -1,6 +1,9 @@
 ﻿/*
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
+ * 
+ * Project Euler Tribute Problem I created
+ * In the given file, data.txt, what is the largest prime number consisting of all prime digits? 
  */
 
 using System;
@@ -42,12 +45,12 @@ namespace e011 {
                             num = Convert.ToInt64(numString);
                             if (IsPrime(num)) {
                                 if (num > maxPrime) {
-//                                  Console.WriteLine("Replacing " + maxPrime + " with " + num);
+                                  Console.WriteLine("Replacing " + maxPrime + " with " + num);
                                     maxPrime = num;
                                 }
                             } else {
                                 // Give up on this starting point in the string
-                                keepGoing = false;
+//                                keepGoing = false;
                             }
                         } else { keepGoing = false; }
                     }
